@@ -225,12 +225,13 @@ margin-left: 10em;
 
 }
 
+
 .menu-section div{
     justify-content: center;
     text-align: center;
     font-size: 50px;
     color: black;
-    margin-top: 2em;
+    margin-top: 8px;
 
 
 }
@@ -243,23 +244,47 @@ margin-left: 10em;
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
     justify-content: center;
-    margin-left: 4em;
-    margin-bottom: 20em;
-    
-  }
+    margin-left: 2em;
 
+}
+
+
+
+
+
+
+ 
   div.one{
       padding: 4em;
       background: url(./images/burger.jpg) center center;
       background-position: cover;
   }
 
+
+  div.one:hover{
+    transform: scale(0.9);
+    transition: all .2s ease;
+  }
+  
+
+
+
   div.two{
-    padding: ;
+    padding: em ;
     background: url(./images/chapman.jpg) center center;
     background-position: cover;
-    background-repeat: no-repeat;
+    background-repeat: round;
+    margin-left: 0.35em;
+
 }
+
+div.two:hover{
+    transform: scale(0.9);
+    transition: all .2s ease;
+}
+
+
+
 
 div.three{
     padding: 4em ;
@@ -267,6 +292,13 @@ div.three{
     background-position: cover;
     background-repeat: no-repeat;
 }
+
+div.three:hover{
+    transform: scale(0.9);
+    transition: all .2s ease;
+}
+
+
 
 div.four{
     padding: ;
@@ -276,6 +308,13 @@ div.four{
     margin-left: 0.35em;
 }
 
+div.four:hover{
+    transform: scale(0.9);
+    transition: all .2s ease;
+}
+
+
+
 div.five{
     padding: 4em;
     background: url(./images/salad.jpg) center center;
@@ -283,12 +322,29 @@ div.five{
     background-repeat: no-repeat;
 }
 
+div.five:hover{
+    transform: scale(0.9);
+    transition: all .2s ease;
+}
+
+
+
+
 div.six{
     padding: 4em;
     background: url(./images/dessert.jpg) center center;
     background-position: cover;
     background-repeat: round;
+    margin-left: 0.35em;
 }
+
+div.six:hover{
+    transform: scale(0.9);
+    transition: all .2s ease;
+
+}
+
+
 
 
 
