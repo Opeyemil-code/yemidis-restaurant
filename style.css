@@ -23,7 +23,7 @@ body{
 
 header{
     display: flex;
-    background: -moz-linear-gradient(#7f00ff,#e5d7e7);
+    background: -moz-linear-gradient(#3e0686,#e2d9e4);
     
     
 
@@ -157,12 +157,13 @@ p.tagline{
 /*//////////////////////////////////////////////// first section                  ////////////////////////////////////////////////////*/
 
 .first-section{
-    background-image: url('./images/saefood\ image.jpg');
+    background-image: url('./images/salad.jpg');
     width: 100%;
-    height: 100vh;
-    background-repeat: repeat;
+    height: 120vh;
+    background-repeat: no-repeat;
     background-size: cover;
     padding-top: 5em;
+    
 }
 
 h1.ingredients{
@@ -221,6 +222,7 @@ margin-left: 10em;
 
 
 .menu-section{
+    
 
 
 }
@@ -341,8 +343,49 @@ div.six{
 div.six:hover{
     transform: scale(0.9);
     transition: all .2s ease;
+}
+
+
+
+.flexone{
+    justify-content: center;
+    text-align: center;
+    background: #7f00ff;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.flexone:hover{
+    background: rgb(71, 71, 68);
 
 }
+
+
+
+
+/*.flexfour{
+    background: blue;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding-bottom: 50px;
+    margin-left: 5em;
+    
+}
+
+.flextwo{
+    text-align: center;
+    background: blue;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 12em;
+    margin-left: 5em;
+
+}
+
 
 
 
